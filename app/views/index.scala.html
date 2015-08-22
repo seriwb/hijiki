@@ -1,7 +1,42 @@
 @(message: String)
 
-@main("Welcome to Play") {
+@main(message) {
 
-    @message
+  <div class="page-header" id="banner">
+      <h1>夏だ！祭りだ！VOICEROID非実況動画祭だ！！</h1>
+    <div class="row">
+      <div class="col-xs-11 col-sm-5 col-md-7">
+        <a class="twitter-timeline"
+          href="https://twitter.com/search?q=%E3%81%B2%E3%81%98%E3%81%8D%E7%A5%AD%20OR%20VOICEROID%E9%9D%9E%E5%AE%9F%E6%B3%81%E5%8B%95%E7%94%BB%E7%A5%AD"
+          data-widget-id="633428851675103232">VOICEROID非実況動画祭に関するツイート</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+  
+      <div class="row">
+        <!-- 告知 -->
+        <div class="col-sm-5">
+          <aside class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">VOICEROID非実況動画祭 開催中！！</h3>
+            </div>
+            <div class="panel-body">
+            <!--<p class="text-center today">8/22＠前夜祭！</p><!-- TODO:ロジックで文字列埋め込む -->
+            <p class="text-center today">8/23＠本日開催！</p><!-- TODO:ロジックで文字列埋め込む -->
+            <p class="text-center">（開催期間：2015/08/23 ～ 2015/08/30）</p>
+            </div>
+          </aside>
+        </div>
 
+        <div class="col-xs-7 col-md-5">
+          <h3>ひじき祭に関するつぶやき</h3>
+          <a class="twitter-timeline"
+            href="https://twitter.com/search?q=%E3%81%B2%E3%81%98%E3%81%8D%E7%A5%AD%20OR%20VOICEROID%E9%9D%9E%E5%AE%9F%E6%B3%81%E5%8B%95%E7%94%BB%E7%A5%AD"
+            data-widget-id="633428851675103232">VOICEROID非実況動画祭に関するツイート</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div style="text-align: center; width: 300px; margin: 0 0 5px 0;"></div>
 }
