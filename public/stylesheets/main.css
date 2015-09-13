@@ -44,3 +44,19 @@ body {
 		margin-bottom: 10px;
 	}
 }
+
+footer {
+  padding: 20px 40px;
+  color: #eee;
+  background-color: #333;
+  font-size: 75%;
+}
+
+footer .social-button > ul > li {
+  /* position: relative;
+  left: -50%; */
+  float: left;
+  padding: 0 5px;
+  margin: 0 10px;
+  list-style-type:none;
+}
