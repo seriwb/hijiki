@@ -1,20 +1,32 @@
-@(message: String)
+@(message: String, nicoId: String)
 
 @main(message) {
 
   <div class="page-header" id="banner">
-      <h1>夏だ！祭りだ！VOICEROID非実況動画祭だ！！</h1>
+    <h1>夏だ！祭りだ！VOICEROID非実況動画祭だ！！</h1>
     <div class="row">
-      <div class="col-xs-11 col-sm-5 col-md-7">
-        <a class="twitter-timeline"
-          href="https://twitter.com/search?q=%E3%81%B2%E3%81%98%E3%81%8D%E7%A5%AD%20OR%20VOICEROID%E9%9D%9E%E5%AE%9F%E6%B3%81%E5%8B%95%E7%94%BB%E7%A5%AD"
-          data-widget-id="633428851675103232">VOICEROID非実況動画祭に関するツイート</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <div class="col-xs-12 col-sm-5 col-md-7">
+        <h2>Pick Up!!</h2>
+        <div class="thumbnail">
+          <script type="text/javascript" src="http://ext.nicovideo.jp/thumb_watch/@nicoId?w=642&h=400"></script>
+          <noscript><a href="http://www.nicovideo.jp/watch/@nicoId" target="_blank">動画タイトル</a></noscript>
+          <div class="caption">
+            <h3>【ひじき祭】ロスト・アイデンティティ【ホラー調】</h3>
+            <p><font size=\"7\">こんな真面目なやつだったなんて…</font><br /><br /><br />ひじき祭にもう１動画うpしてます（料理）　→　sm26983804<br />全投稿動画　→　mylist/49415120<br /></p>
+            <p><a class="btn btn-default col-md-offset-11" href="http://www.nicovideo.jp/watch/@nicoId" target="_blank"><span class="glyphicon glyphicon-share" aria-hidden="true"></span></a></p>
+          </div>
+        </div>
+        
+        <h3>最近投稿された動画</h3>
+        
+        <iframe width="312" height="176" src="http://ext.nicovideo.jp/thumb/sm27054085" scrolling="no" style="border:solid 1px #CCC;" frameborder="0">
+          <a href="http://www.nicovideo.jp/watch/sm27054085">【ニコニコ動画】【ひじき祭】ゆかりとずん子がモン娘について語るようです。【後夜祭】</a>
+        </iframe>
       </div>
   
       <div class="row">
         <!-- 告知 -->
-        <div class="col-xs-5">
+        <div class="col-xs-4 col-sm-5">
           <aside class="panel panel-warning">
             <div class="panel-heading">
               <h3 class="panel-title">VOICEROID非実況動画祭 開催中！！</h3>
@@ -27,7 +39,7 @@
           </aside>
         </div>
 
-        <div class="col-xs-7 col-md-5">
+        <div class="col-xs-4 col-md-5">
           <h3>ひじき祭に関するつぶやき</h3>
           <a class="twitter-timeline"
             href="https://twitter.com/search?q=%E3%81%B2%E3%81%98%E3%81%8D%E7%A5%AD%20OR%20VOICEROID%E9%9D%9E%E5%AE%9F%E6%B3%81%E5%8B%95%E7%94%BB%E7%A5%AD"
